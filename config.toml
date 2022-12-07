@@ -1,3 +1,33 @@
-baseURL = 'http://example.org/'
+baseURL = 'http://brenn.dev'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'brenn.dev'
+theme = "paper"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+
+# disqusShortname = 'YOUR_DISQUS_SHORTNAME'   # add disqus comments
+
+[params]
+  # color style
+  color = 'linen'                 # linen, wheat, gray, light
+
+  # header social icons
+  twitter = 'brennedith'     # twitter.com/YOUR_TWITTER_ID
+  github = 'brennedith'       # github.com/YOUR_GITHUB_ID
+#   instagram = 'YOUR_INSTAGRAM_ID' # instagram.com/YOUR_INSTAGRAM_ID
+#   rss = true                      # show rss icon with link
+
+  # home page profile
+  avatar = 'https://github.com/brennedith.png'
+  name = 'Brennedith Garcia'
+  bio = 'Notes and thoughts about software development'
+
+  # misc
+#   disableHLJS = true              # disable requesting highlight.js
+  monoDarkIcon = true             # show monochrome dark mode icon
