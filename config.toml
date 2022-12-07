@@ -26,7 +26,7 @@ theme = "paper"
   # home page profile
   avatar = 'https://github.com/brennedith.png'
   name = 'Brennedith Garcia'
-  bio = 'Notes and thoughts about software development'
+  bio = 'Personal notes on software development'
 
   # misc
 #   disableHLJS = true              # disable requesting highlight.js
